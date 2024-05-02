@@ -1,0 +1,39 @@
+
+.poisk {
+  position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+.reset{
+    padding: 0 13px;
+    background-color: #292937;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.reset:hover{
+background-color: #FF3A3A;
+}
+.input-search {
+border: none;
+box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25);
+padding: 13px 150px 13px 64px;
+}
+
+.search-icon{
+position: absolute;
+
+    top: 28px;
+    cursor: pointer;
+
+    transform: translateX(-183px);
+}
+.input-search:active{
+border: none;}
+
+

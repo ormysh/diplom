@@ -1,0 +1,81 @@
+main {
+  background-color: #FFF7F3;
+  padding-bottom: 2px;
+  min-height: 85vh;
+
+}
+
+
+h1, h2, h3, .old-price {
+  font-family: "BuyanBold", sans-serif;
+  letter-spacing: 2.2px;
+}
+
+/* СТИЛИ СЛАЙДЕРА */
+.swiper-slide img {
+  width: 100%;
+  max-height: 550px;
+  object-fit:cover;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+}
+.mySwiper swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySwiper swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 3vw !important;
+  height: 0.5vh !important;
+  background: #FFF7F3 !important;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background: #FF3a3a !important;
+
+}
+
+.description-work {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.description-work .description-work__left {
+  display: flex;
+  flex-direction: column;
+}
+.description-work .description-work__left p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: calc(1vw + 9px);
+}
+.description-work .description-work__left h2 {
+  font-size: calc(1vw + 13px);
+}
+.description-work .description-work__right {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.description-work .description-work__right h3 {
+  margin-bottom: 5px;
+  font-size: calc(1vw + 13px);  
+}
+.description-work .description-work__right p {
+  font-size: calc(1.1vw + 9px);  
+}

@@ -1,0 +1,137 @@
+  footer {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+    color: #000;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .footer-container {
+    position: relative;
+    z-index: 0;
+  }
+
+  
+  .footer-container::before {
+    content: '';
+    position: absolute;
+    bottom: 101%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 55vw solid transparent;
+    border-right: 55vw solid transparent;
+    border-top: 50px solid #FFF7F3;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25) inset;
+  }
+
+  .footer-bottom{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 32px;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25);
+  }
+
+  .footer-link{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    color: #000
+  }
+
+  a:hover{
+    color: #FF3A3A;
+  }
+
+  .footer-link a,
+  .footer-contact a,
+  .footer-contact p,
+  .footer-help a{
+    margin-bottom: 24px;
+  }
+
+  .footer-link a:last-child,
+  .footer-contact a:last-child,
+  .footer-contact p:last-child,
+  .footer-help a:last-child{
+    margin-bottom: 0;
+  }
+
+  .footer-contact{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-help{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo__img{
+    max-width: 223px;
+  }
+
+  .footer__social{
+    display: flex;
+  align-items: center;
+  gap: 27px;
+  justify-content: center;
+  }
+
+  #vk-footer {
+    stroke: #000;
+    fill: #fff;
+    transition: fill 0.3s ease;
+  }
+  
+@media screen and (max-width: 416px) {
+  
+  .footer-container .container {
+    text-align:center;
+  }
+  .footer-link{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 38px;
+    margin-top: 38px;
+  }
+  .footer-contact{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 38px;
+  }
+  .footer-help{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 38px;
+  }
+  .footer-social{
+     margin-left:auto;
+    margin-right:auto;
+  }
+    .footer-link a,
+  .footer-contact a,
+  .footer-contact p,
+  .footer-help a{
+    margin-bottom: 14px;
+  }
+  }
